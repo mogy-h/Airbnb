@@ -234,6 +234,7 @@ header nav ul li a:hover {
   border-radius: 10px;
   display: inline-block;
   font-size: 14px;
+  float: right;   
 }
 
 .btn a:active {
@@ -372,7 +373,7 @@ header nav ul li a:hover {
 }
 
 .contents-title {
-  font-size: 40px;
+  font-size: 70px;
   font-weight: bold;
   color: #333;
   letter-spacing: -1.5px;
@@ -386,5 +387,38 @@ header nav ul li a:hover {
 .contents .text2 {
   width: 300px;
   height: auto;
-  margin: 100px 60px 100px 0;
+  margin: 50px 60px 100px 0;
+}
+
+.text2 img{
+  display: block;
+  width: 50px;
+  height: 50px;
+  margin-bottom: 15px;
+  opacity: 0.7;
+}
+
+.contents .text2 h3{
+  font-size: 24px;
+  font-weight: bold;
+  margin-bottom: 15px;
+}
+
+.contents .text2 p{
+  font-size: 16px;
+}
+
+.contents .last-txt p{
+  margin-bottom: 16px;
+}
+
+.contents .text2 a{
+  display: block;
+  text-decoration: none;
+  font-size: 16px;
+  color: #008489;
+}
+
+.contents .text2 a:hover{
+  text-decoration: underline;
 }
