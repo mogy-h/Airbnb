@@ -170,6 +170,10 @@ body {
   color: #484848;
 }
 
+p {
+  line-height: 1.75em;
+}
+
 /*
        ヘッダー
 */
@@ -234,7 +238,7 @@ header nav ul li a:hover {
   border-radius: 10px;
   display: inline-block;
   font-size: 14px;
-  float: right;   
+  float: right;
 }
 
 .btn a:active {
@@ -269,6 +273,7 @@ header nav ul li a:hover {
   padding-bottom: 88px; */
   background: url(images/london-5297395_1280.jpg);
   position: relative;
+  margin-bottom: 60px;
 }
 
 .contact {
@@ -353,12 +358,13 @@ header nav ul li a:hover {
   display: flex;
   justify-items: space-between;
   flex-wrap: wrap;
+  font-size: 16px;
 }
 
 .contents .text {
   width: 460px;
   height: auto;
-  padding: 60px 80px 100px 0;
+  padding: 0 80px 0 0;
   /* background-color: pink; */
 }
 
@@ -368,16 +374,14 @@ header nav ul li a:hover {
   margin-bottom: 25px;
 }
 
-.contents .text p {
-  font-size: 16px;
-}
-
 .contents-title {
   font-size: 70px;
   font-weight: bold;
   color: #333;
   letter-spacing: -1.5px;
   text-align: center;
+  margin: 100px 0 50px;
+  /* border-top: 3px solid #484848; */
 }
 
 .contents2 {
@@ -387,10 +391,10 @@ header nav ul li a:hover {
 .contents .text2 {
   width: 300px;
   height: auto;
-  margin: 50px 60px 100px 0;
+  margin: 0 60px 100px 0;
 }
 
-.text2 img{
+.text2 img {
   display: block;
   width: 50px;
   height: 50px;
@@ -398,27 +402,294 @@ header nav ul li a:hover {
   opacity: 0.7;
 }
 
-.contents .text2 h3{
+.contents .text2 h3 {
   font-size: 24px;
   font-weight: bold;
   margin-bottom: 15px;
 }
 
-.contents .text2 p{
+.contents .text2 p {
   font-size: 16px;
 }
 
-.contents .last-txt p{
+.contents .last-txt p {
   margin-bottom: 16px;
 }
 
-.contents .text2 a{
+.contents .text2 a {
   display: block;
   text-decoration: none;
   font-size: 16px;
   color: #008489;
 }
 
-.contents .text2 a:hover{
+.contents .text2 a:hover {
   text-decoration: underline;
+}
+
+.contents .left-text {
+  width: 430px;
+  height: auto;
+}
+
+.contents .left-text img {
+  width: 50px;
+  height: 50px;
+  margin-top: 20px;
+  display: block;
+}
+
+.contents .left-text h2 {
+  font-size: 30px;
+}
+
+.contents .left-text p {
+  font-size: 16px;
+  margin: 25px 0;
+  color: #767676;
+}
+
+.contents .left-text a {
+  display: block;
+  width: 224px;
+  height: 44px;
+  border: 3px solid #484848;
+  text-align: center;
+  line-height: 44px;
+  text-decoration: none;
+  border-radius: 5px;
+  color: #484848;
+}
+
+.contents .host {
+  width: 520px;
+  height: 520px;
+  margin-left: 100px;
+}
+
+.contents .host2 {
+  width: 520px;
+  height: 520px;
+  margin-right: 100px;
+}
+
+.contents a {
+  display: block;
+  text-decoration: none;
+  font-size: 16px;
+  color: #008489;
+  margin-top: 20px;
+}
+
+.contents a:hover {
+  text-decoration: underline;
+}
+
+.contents ul {
+  display: block;
+  width: 460px;
+  height: auto;
+  padding: 0 80px 0 0;
+  /* margin-bottom: 50px; */
+}
+
+.contents ul li {
+  line-height: 30px;
+  margin-bottom: 15px;
+}
+
+.contents ul li img {
+  width: 20px;
+  height: 20px;
+  opacity: 0.7;
+  margin-right: 15px;
+}
+
+.contents #contents-img {
+  width: 1080px;
+  margin-top: 50px;
+}
+
+.contents .right-text {
+  margin-top: 70px;
+}
+
+.contents .question {
+  display: flex;
+  width: 1080px;
+}
+
+.contents .question ul li {
+  height: 50px;
+  border-bottom: 1px solid #ebebeb;
+}
+
+.contents .question ul li a {
+  font-size: 18px;
+  width: auto;
+}
+
+.hosting-title h4 {
+  font-size: 24px;
+  text-align: left;
+  margin: 50px 0 0 180px;
+}
+
+.contents .nav-img {
+  margin-right: 14px;
+  /* box-shadow: 3px; */
+} 
+
+.contents a img {
+  width: 340px;
+  /* margin-right: 20px; */
+  border-radius: 5px;
+}
+
+.contents a h5,
+p {
+  color: #484848;
+}
+
+.contents a span {
+  color: #0ec2cb;
+}
+
+.revenue{
+  width: 1280px;
+  height: 400px;
+  background: url(images/bottles-2583125_1280.jpg);
+  margin: 30px auto;
+  position: relative;
+}
+
+.revenue-text{
+  width: 550px;
+  position: absolute;
+  top: 70px;
+  left: 100px;
+}
+
+.revenue-text h1{
+  font-size: 70px;
+}
+
+.revenue-text a{
+  width: 120px;
+  height: 50px;
+  background-color: #FFF;
+  text-decoration: none;
+  line-height: 50px;
+  text-align: center;
+  color: #484848;
+  border-radius: 5px;
+  display: inline-block;
+  font-size: 18px;
+}
+
+.revenue-text a:active{
+  background-color: #eee;
+}
+
+/* ========================================
+    フッター
+========================================= */
+
+footer{
+  width: 100%;
+  height: 600px;
+  background-color: #efefef;
+  font-size: 14px;
+}
+
+.footer-inner{
+  width: 1280px;
+  height: 460px;
+  margin: 0 auto;
+  display: flex;
+  /* background-color: red; */
+  border-bottom: 1px solid #cdcdcd;
+}
+
+.footer-nav{
+  flex: 1;
+  /* background-color: red; */
+}
+
+.footer-nav ul{
+  margin-top: 50px;
+}
+
+.footer-nav p{
+  margin-bottom: 20px;
+  color: #333;
+  font-weight: bold;
+}
+
+.footer-nav li{
+  margin-bottom: 20px;
+}
+
+.footer-nav li a{
+  color: #484848;
+  text-decoration: none;
+}
+
+.footer-nav li a:hover{
+  text-decoration: underline;
+}
+
+.footer-under{
+  width: 1280px;
+  height: 140px;
+  margin: 0 auto;
+  display: flex;
+  position: relative;
+}
+
+.footer-under .footer-left{
+  margin-top: 35px;
+}
+
+.footer-under a{
+  color: #484848;
+  text-decoration: none;
+  display: inline-block;
+}
+
+.footer-under a:hover{
+  text-decoration: underline;
+}
+
+.footer-right{
+  position: absolute;
+  top: 35px;
+  right: 0px;
+}
+
+.footer-right a{
+  margin-right: 30px;
+  text-decoration: underline;
+  line-height: 16px;
+  color: #222;
+  font-size: 16px;
+  font-weight: bold;
+}
+
+.footer-right a:hover{
+  opacity: 0.8;
+}
+
+.footer-right img{
+  width: 16px;
+  height: 16px;
+}
+
+.footer-right .sns{
+  margin-right: 20px;
+}
+
+.footer-right .sns img{
+  width: 20px;
+  height: 20px;
 }
